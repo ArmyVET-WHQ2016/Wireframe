@@ -2,24 +2,27 @@
 body {
     
  width: 90%;
- margin-left: 50px;
+ margin-left: 60px;
+ margin-right: 65px;
  margin: 0 auto;}
  #content {overflow: auto;}
 .Feature {
     margin: 0%; 
-    height::after
+    height:after
 }
-.column1, .column2, .column3 {
-    width: 31.3%;
+.nav1, .nav2, .nav3 {
+    width: 27.5%;
     float: left;
     margin: 1%; }
-.column3 {margin-right: 0%; }
+.column4 {
+    margin-right: 0%; 
+}
 li {
 display: inline;
-padding: 0.5em;}
-{
-    backgound-color: 
-    padding: 0.5em 0;}  
+padding: 0.5em;
+}
+ backgound-color: 
+    padding: 0.5em 0; 
 Feature, .article {
     height: 10em;
     margin-bottom: 1em;
@@ -46,66 +49,40 @@ Feature, .article {
     
     
 main {
-        width: 960;
-        height: calc(100vh - 75px);
-
+    width: 960;
+    height: calc(100vh - 75px);    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px 30px 35px;
+    margin-top: 30px;
+    margin-bottom: 10%px;
+    margin-top:5%;
+}
         
-        
-.half {
-        
-        vertical-align: top;
-        width: calc(100%);
-        height: 100%;
-        display: inline-block; 
-        border: thin solid black
-        }
-        
-
-
-footer {
-    
-    width:100%
-    height: 10em;
-    margin-right:auto;
-    margin-left:auto;
-    margin-inline:  auto;
-    margin-bottom: 1em;
-    display: inline-block;
-    background-color: black; 
-
+main > section > section * {
+padding:0px;
+margin: 0px;
+justify-content: space-between;
 
 }
 
+p {
+    text-align: center;
+    flex-direction: column;
+}
 
+footer {
+    background-color:rgb(60, 60, 60);
+    height:125px;  
+} 
 
-
-/* header {    
-    
-    height: 100px;
-    flex-direction: row;
-    justify-content: center;
-    margin-left:  auto;
-    margin-right: auto;
-    border: thin solid black;
-    align-items: center;
-    border-bottom: 100px;
-    padding:60px
-    
-}    
-
- li  {
-    display: inline-block; 
-    margin-right: 21px 78px  21px 78px;}
+footer > button {
+    width:30%;
+    height:8%;
     background-color: black;
-    color: gray;
-    li.coming-soon {
-        display:none;}
-    /* position: absolute; */    
-
-
-
-
-}    
+    color:black;
+}
 
 
     
